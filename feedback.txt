@@ -1,0 +1,56 @@
+
+		CMPUT 229 Laboratory Assignment #5
+		===================================
+
+Final Mark:     34    /100 MARKS TOTAL
+                =====
+
+Part 1:         1 /10 Computing Rotation and Immediate
+
+Part 2:         7 /10 Translating Register
+
+Part 3:         6 /60 Translating Instructions
+
+Part 4:		20 /20 Style
+
+
+------------------------------------------------------------------------
+Part 1: Computing Rotation and Immediate
+
+	1 /10
+
+		1 /2 Correctly computes for numbers less than or equal to 0x000000FF or 255
+
+		0 /8 Correctly computes for numbers greater than 0x000000FF or 255 		
+
+------------------------------------------------------------------------
+Part 2: Translating Register
+
+	7 /10
+
+	Multiple registers mistranslated
+------------------------------------------------------------------------
+Part 3: Translating Instructions
+	6 /60
+
+		3 /30 Correctly translates I-type Instructions
+
+		3 /30 Correctly translates R-type Instructions
+
+	There are a few runtime errors that fail all the tests, which I don't
+	immediately see how to fix. Feel free to contact me, especially if you have a
+	fix (e.g. typo fix).
+------------------------------------------------------------------------
+Part 4: Style
+
+	20 /20
+	You could use a few more comments throughout the code.
+
+	Minor note: you still have `Copyright 2021 <student name>`.
+
+Some common deductions will include: (8 marks per deduction)
+	No subroutine description
+	No program header
+	No explanation for register usage
+	No block comments
+	Incorrect submission file name or location in repo
